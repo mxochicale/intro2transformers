@@ -1,4 +1,4 @@
-# WIP :school_satchel: :wrench: All you need is attention!
+# WIP :school_satchel: :wrench: Attention is all you need!
 > "A transformer is a deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input data." [~wiki](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))  
 
 _‘What I cannot create. I do not understand.’ ~ Richard Feynman (1918 – 1988)_ [:tv:](https://youtu.be/GHOGAomJJjM?t=496) [:link:](https://www.quora.com/What-did-Richard-Feynman-mean-when-he-said-What-I-cannot-create-I-do-not-understand)
