@@ -11,12 +11,22 @@
 	* https://arxiv.org/abs/1706.03762 
 
 ## Video tutorials
-* An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (Paper Explained) by Yannic Kilcher on 4 Oct 2020    
-	* https://www.youtube.com/watch?v=TrdevFK_am4 
+
+| Title and author  | Video link | Publication date |
+| --- | --- | --- | 
+| 
+An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (Paper Explained) by Yannic Kilcher | 
+https://www.youtube.com/watch?v=TrdevFK_am4 | 
+4 Oct 2020 | 
+
 
 * Attention Is All You Need by Yannic Kilcher on 28 Nov 2017       
 	* https://www.youtube.com/watch?v=iDulhoQ2pro
 
 * Let's build GPT: from scratch, in code, spelled out. by Andrej Karpathy on 17 Jan 2023       
 	* https://www.youtube.com/watch?v=kCc8FmEb1nY
+
+* Attention is all you need (Transformer) - Model explanation (including math), Inference and Training by Umar Jamil on 11 May 2023
+	* https://www.youtube.com/watch?v=hjesn5pCEYc 
+
 
