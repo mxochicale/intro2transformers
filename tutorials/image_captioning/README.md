@@ -2,7 +2,7 @@
 
 ## Launching notebook
 ```
-conda activate transformersVE
+mamba activate transformersVE
 jupyter notebook --browser=firefox
 ```
 
