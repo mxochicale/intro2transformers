@@ -12,6 +12,7 @@
 ## ignores vim temporal files
 **/*.swp
 
-## ignore big files
+## datafiles
 #**/my_pipeline
-
+**/raw.githubusercontent.com
+best_model.h5

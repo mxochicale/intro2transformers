@@ -10,6 +10,7 @@ import torch
 import PIL
 #import pandas
 import transformers
+import tensorflow as tf
 
 print(f'python: {sys.version}')
 #print(f'opencv: {cv2.__version__}')
@@ -24,5 +25,6 @@ print(f'torch cuda.device_count  {torch.cuda.device_count()}')
 print(f'PIL version: {PIL.__version__}')
 print(f'transformers version: {transformers.__version__}')
 #print(f'pandas version: {pandas.__version__}')
+print(f'tensorflow version: {tf.__version__}')
 
 

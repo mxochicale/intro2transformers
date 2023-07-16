@@ -1,14 +1,14 @@
 ## USAGE
 ## cd ../dependencies
-## conda update -n base -c defaults conda  ## UPDATE CONDA
-## conda list -n *VE # show list of installed packages
-## conda env create -f *ve.yml   		    ## INSTALL
-## conda env update -f *ve.yml --prune  	## UPDATE
-## conda activate *VE			    ## ACTIVATE
-## conda remove -n *VE --all   ## REMOVE
+## mamba update -n base -c defaults conda  ## UPDATE CONDA
+## mamba list -n *VE # show list of installed packages
+## mamba env create -f *ve.yml   		    ## INSTALL
+## mamba env update -f *ve.yml --prune  	## UPDATE
+## mamba activate *VE			    ## ACTIVATE
+## mamba remove -n *VE --all   ## REMOVE
 
 ## QUICK TEST OF THE AVAILABILITY OF CUDA
-## conda activate *VE
+## mamba activate *VE
 ## python
 ## import torch
 ## torch.cuda.is_available()
@@ -22,6 +22,7 @@ dependencies:
   #- torchinfo
   - python=3.10.*
   - cudatoolkit=11.*.*
+  - tensorflow
   #- h5py=3.6.0 #default 3.7.0
   # - hdf5 #default 1.12.1
   # - libgcc #7.2.0 > libgcc-ng 11.2.0
@@ -44,7 +45,7 @@ dependencies:
     #- pyyaml
     #- einops
     #- plotly
-    #- matplotlib
+    - matplotlib
     #- numpy
     #- notebook
     - jupyter
