@@ -1,4 +1,4 @@
-# Setting up conda env 
+# Setting up mamba env 
 
 ## Conda
 Install [mamba](https://github.com/mxochicale/code/tree/main/mamba) and create [...VE](ve.yml).
@@ -15,8 +15,7 @@ Install [mamba](https://github.com/mxochicale/code/tree/main/mamba) and create [
 
 * Python package versions
 ```
-$ mamba activate *VE
-$ python package_versions.py 
+mamba activate transformersVE && python packages_versions.py 
 
 
 2023-07-16 08:13:06.596249: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
@@ -26,8 +25,9 @@ torch cuda_is_available: True
 torch cuda version: 11.2
 torch cuda.device_count  1
 PIL version: 10.0.0
-transformers version: 4.30.2
+transformers version: 4.31.0
 tensorflow version: 2.9.1
+notebook version: 7.0.0
 
 ```
 

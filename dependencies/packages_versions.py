@@ -11,6 +11,7 @@ import PIL
 #import pandas
 import transformers
 import tensorflow as tf
+import notebook
 
 print(f'python: {sys.version}')
 #print(f'opencv: {cv2.__version__}')
@@ -26,5 +27,5 @@ print(f'PIL version: {PIL.__version__}')
 print(f'transformers version: {transformers.__version__}')
 #print(f'pandas version: {pandas.__version__}')
 print(f'tensorflow version: {tf.__version__}')
-
+print(f'notebook version: {notebook.__version__}')
 

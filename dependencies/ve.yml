@@ -41,7 +41,7 @@ dependencies:
     - pillow
     #- opencv-python
     #- albumentations
-    #- scikit-learn
+    - scikit-learn
     #- pyyaml
     #- einops
     #- plotly
@@ -54,4 +54,4 @@ dependencies:
     #- diffusers
     #- pandas
     #- pytables
-
+    - pydot
