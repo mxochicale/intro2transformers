@@ -14,10 +14,12 @@
 ## torch.cuda.is_available()
 
 ## USING TERMINAL IN CODESPACES 
-# cd ../../../
+# cd ../../
 # source ~/.bashrc
 # conda create -n eVE -c conda-forge
+# pip install --upgrade pip
 # pip install tensorflow
+#conda create --name env_name python==3.7.5 package_name1 package_name2
 
 
 name: transformersVE
