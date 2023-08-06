@@ -70,12 +70,13 @@ GPU 00000000:01:00.0
 
 * Create conda env in the terminal 
 ``` 
-cd ../../
-source ~/.bashrc
-conda create -n eVE -c conda-forge
-conda init
+#cd ../../
+#source ~/.bashrc
+#conda create -n eVE -c conda-forge # environment location: /opt/conda/envs/eVE
+#conda init
+## Using base env
 pip install --upgrade pip
-pip install tensorflow
+pip install tensorflow matplotlib scikit-learn pydot
 # adding VE to jupyter notebook
 # https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084
 conda install -c anaconda ipykernel
@@ -105,3 +106,7 @@ https://github.com/devcontainers/features/tree/main/src/nvidia-cuda
 * Data science and machine learning with Codespaces - Universe 2022
 https://www.youtube.com/watch?v=QbbYj56s7HU
 https://github.com/tanmayeekamath/intro-to-ml
+
+
+* 023/02/28/10-things-you-didnt-know-you-could-do-with-github-codespaces/
+https://noise.getoto.net/2023/02/28/10-things-you-didnt-know-you-could-do-with-github-codespaces/
