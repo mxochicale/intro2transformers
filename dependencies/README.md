@@ -64,3 +64,44 @@ GPU 00000000:01:00.0
     Product Architecture                  : Ampere
 
 ```
+
+
+## Codespaces 
+
+* Create conda env in the terminal 
+``` 
+cd ../../
+source ~/.bashrc
+conda create -n eVE -c conda-forge
+conda init
+pip install --upgrade pip
+pip install tensorflow
+# adding VE to jupyter notebook
+# https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=eVE
+##others
+# conda create --name env_name python==3.7.5 package_name1 package_name2
+``` 
+
+
+* Useful commands in the terminal
+``` 
+cat /etc/os-release
+free -m
+```
+
+References
+* https://www.youtube.com/watch?v=E2sRPvvvGPE  
+* https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces
+
+
+* Configuring NVIDIA CUDA for your codespace
+https://docs.github.com/en/codespaces/developing-in-codespaces/getting-started-with-github-codespaces-for-machine-learning
+
+https://github.com/devcontainers/features/tree/main/src/nvidia-cuda
+
+
+* Data science and machine learning with Codespaces - Universe 2022
+https://www.youtube.com/watch?v=QbbYj56s7HU
+https://github.com/tanmayeekamath/intro-to-ml
