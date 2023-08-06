@@ -6,23 +6,15 @@
 		"context": "..",
 		"dockerfile": "Dockerfile"
 	},
-	"features": {
-		"ghcr.io/devcontainers/features/conda:1": {},
-		"ghcr.io/devcontainers/features/nvidia-cuda:1": {}
-	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+		//"ghcr.io/devcontainers/features/nvidia-cuda:1": {}
+		"ghcr.io/mamba-org/devcontainer-features/micromamba:1": {
+			"channels": "conda-forge",
+			"packages": "python>=3.11, tensorflow"
+			//"envFile": "/tmp/environment.yml"
+		  }
+	}
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "python --version",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
 }
