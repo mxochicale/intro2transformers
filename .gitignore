@@ -11,9 +11,15 @@
 
 ## ignores vim temporal files
 **/*.swp
+**/tutorials/time-series-classification/timeseries_transformer_classification_*.ipynb
 
 ## datafiles
 #**/my_pipeline
 **/raw.githubusercontent.com
 best_model.h5
 best_transforer_model.h5
+**/model.png
+
+## ve
+**/.venv
+**/intro2transformers.egg-info

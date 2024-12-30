@@ -14,8 +14,18 @@
 * Why multi-head self attention works: math, intuitions and 10+1 hidden insights. Nikolas Adaloglouon2021-03-25 
 	* https://theaisummer.com/self-attention/
 
+* "TensorFlow, Keras and deep learning, without a PhD" updated on 25 June 2021
+	* https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist#0
+
+
 * Einsum is all you need! > Einstein Summation in Deep Learning 
 	* https://rockt.github.io/2018/04/30/einsum
+
+* "Transformers Explained Visually (Part 3): Multi-head Attention, deep dive" by `Ketan Doshi` on Jan 17,2023
+	* https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853
+
+* "What Exactly Is Happening Inside the Transformer" by `Huangwei Wieniawska` on Oct 4, 2020
+	* https://medium.com/swlh/what-exactly-is-happening-inside-the-transformer-b7f713d7aded
 
 ## Repositories 
 * https://github.com/The-AI-Summer/self-attention-cv 
