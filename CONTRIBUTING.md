@@ -59,9 +59,8 @@ git checkout main
 git pull origin main
 git checkout ISSUE_NUMBER-FEATURE_BRANCH #(e.g. git checkout 422-my-feature-branch)
 git fetch
-git rebase MAIN
-git pull --rebase origin main
-# REBASE IN THE TERMINAL
+git rebase main
+# RESOLVE CONFLICTS IN THE TERMINAL
 # git status
 # edit conflicting files with your editor
 # git rebase --continue
