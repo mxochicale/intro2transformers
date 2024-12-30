@@ -51,9 +51,9 @@ git push origin ISSUENUMBER-branch-name
 1. Select branch that contain your commits.
 2. Click `Compare and pull request` and create PR for the associated branch.
 3. Type a title and description of your PR and create PR
-4. Please keep your PR in sync with the base branch.
+4. Please keep your PR in sync with the base branch (e.g. `main`).
 It is recommended that you use [Squashing and merging a long-running branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squashing-and-merging-a-long-running-branch).
-Otherwise, you have the option to rebase your `{ISSUE_NUMBER-FEATURE_BRANCH_NAME}` branch with the base branch (e.g. `main`).
+Otherwise, you have the option to rebase your `{ISSUE_NUMBER_FEATURE_BRANCH}` branch with the base branch (e.g. `main`).
 ```
 git checkout main
 git pull origin main
