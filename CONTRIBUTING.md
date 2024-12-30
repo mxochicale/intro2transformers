@@ -60,10 +60,12 @@ git pull origin main
 git checkout ISSUE_NUMBER-FEATURE_BRANCH #(e.g. git checkout 422-my-feature-branch)
 git fetch
 git rebase main
-#git status
-#edit conflicting files with your editor
-#git rebase --continue
-#git add .
+git pull --rebase origin main
+# REBASE IN THE TERMINAL
+# git status
+# edit conflicting files with your editor
+# git rebase --continue
+# git add .
 git merge main
 git push --force origin FEATURE_BRANCH
 ```
