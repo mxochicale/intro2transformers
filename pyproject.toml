@@ -36,12 +36,14 @@ test = [
     "black",
     "isort",
     "codespell",
-    "pre-commit"
+    "pre-commit",
 ]
 learning = [
     "torch",
     "torchvision",
     "transformers",
+    #"pytorch",
+    #"tensorflow",
     "evaluate",
     "datasets",
     "tqdm",
@@ -52,7 +54,8 @@ learning = [
     "einops",
     "scikit-learn",
     "diffusers",
-    "basicsr",
+    #"basicsr",
+    #"pydot",
 ]
 
 [tool.setuptools.dynamic]

@@ -1,35 +1,13 @@
-# Setting up mamba env 
+# Setting up python env 
 
-## Conda
-Install [mamba](https://github.com/mxochicale/code/tree/main/mamba) and create [...VE](ve.yml).
-
+## uv env
 ```
-#mamba env create -f *ve.yml  
-  Summary:
-  Install: 177 packages
-  Total download: 1GB
+curl -LsSf https://astral.sh/uv/install.sh | sh # install uv
+uv venv --python 3.12 # Create a virtual environment at .venv.
+source .venv/bin/activate #To activate the virtual environment
 ```
 
-
-## Dependencies
-
-* Python package versions
-```
-mamba activate transformersVE && python packages_versions.py 
-
-
-2023-07-16 08:13:06.596249: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-python: 3.10.8 | packaged by conda-forge | (main, Nov 22 2022, 08:23:14) [GCC 10.4.0]
-torch: 1.11.0.post202
-torch cuda_is_available: True
-torch cuda version: 11.2
-torch cuda.device_count  1
-PIL version: 10.0.0
-transformers version: 4.31.0
-tensorflow version: 2.9.1
-notebook version: 7.0.0
-
-```
+## Hardware
 
 * OS
 ```
