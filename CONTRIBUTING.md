@@ -57,7 +57,7 @@ Otherwise, you have the option to rebase your `{ISSUE_NUMBER-FEATURE_BRANCH_NAME
 ```
 git checkout main
 git pull origin main
-git checkout ISSUE_NUMBER-FEATURE_BRANCH #(e.g. git checkout 422-my-feature-branch)
+git checkout ISSUE_NUMBER_FEATURE_BRANCH #(e.g. git checkout 422-my-feature-branch)
 git fetch
 git rebase main
 ## RESOLVE CONFLICTS IN THE TERMINAL
@@ -65,13 +65,13 @@ git rebase main
 # edit conflicting files with `vim` editor
 # git add .
 # git rebase --continue
-git push origin ISSUE_NUMBER-FEATURE_BRANCH --force-with-lease
+git push --force origin ISSUE_NUMBER_FEATURE_BRANCH
 ## JUST MERGE changes from main
 git merge main
-git push origin ISSUE_NUMBER-FEATURE_BRANCH
+git push origin ISSUE_NUMBER_FEATURE_BRANCH
 ## OTHER COMMANDS
-git push --force origin ISSUE_NUMBER-FEATURE_BRANCH
-git pull --rebase origin ISSUE_NUMBER-FEATURE_BRANCH
+git push --force origin ISSUE_NUMBER_FEATURE_BRANCH
+git pull --rebase origin ISSUE_NUMBER_FEATURE_BRANCH
 ```
 5. Run `pre-commit run -a` to tidy up code and documentation.
 6. If you are developing in your local host, please check that your code is properly tested with `pytest`.
