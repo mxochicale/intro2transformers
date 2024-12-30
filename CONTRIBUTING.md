@@ -65,8 +65,10 @@ git rebase main
 # edit conflicting files with your editor
 # git rebase --continue
 # git add .
-git merge main
-git push --force origin FEATURE_BRANCH
+#?git merge main
+#?git push --force origin FEATURE_BRANCH
+#?git pull --rebase origin ISSUE_NUMBER-FEATURE_BRANCH
+#?git push origin ISSUE_NUMBER-FEATURE_BRANCH
 ```
 5. Run `pre-commit run -a` to tidy up code and documentation.
 6. If you are developing in your local host, please check that your code is properly tested with `pytest`.
