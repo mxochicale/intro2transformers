@@ -5,7 +5,7 @@ import gc
 
 def test_gpu():
     """
-    Test data path
+    Test gpu availability
     pytest -vs tests/test_resources.py::test_gpu
 
     """
