@@ -59,7 +59,7 @@ git checkout main
 git pull origin main
 git checkout ISSUE_NUMBER-FEATURE_BRANCH #(e.g. git checkout 422-my-feature-branch)
 git fetch
-git rebase main
+git rebase MAIN
 git pull --rebase origin main
 # REBASE IN THE TERMINAL
 # git status
