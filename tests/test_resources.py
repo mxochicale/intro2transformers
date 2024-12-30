@@ -1,7 +1,9 @@
-import os
-from loguru import logger
-import torch
 import gc
+import os
+
+import torch
+from loguru import logger
+
 
 def test_gpu():
     """
@@ -19,4 +21,3 @@ def test_gpu():
     else:
         logger.info(torch.cuda.is_available())
         logger.info("GPU not available 😔")
-
