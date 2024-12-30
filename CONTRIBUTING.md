@@ -60,15 +60,18 @@ git pull origin main
 git checkout ISSUE_NUMBER-FEATURE_BRANCH #(e.g. git checkout 422-my-feature-branch)
 git fetch
 git rebase main
-# RESOLVE CONFLICTS IN THE TERMINAL
+## RESOLVE CONFLICTS IN THE TERMINAL
 # git status
-# edit conflicting files with your editor
-# git rebase --continue
+# edit conflicting files with `vim` editor
 # git add .
-#?git merge main
-#?git push --force origin FEATURE_BRANCH
-#?git pull --rebase origin ISSUE_NUMBER-FEATURE_BRANCH
-#?git push origin ISSUE_NUMBER-FEATURE_BRANCH
+# git rebase --continue
+git push origin ISSUE_NUMBER-FEATURE_BRANCH --force-with-lease
+## JUST MERGE changes from main
+git merge main
+git push origin ISSUE_NUMBER-FEATURE_BRANCH
+## OTHER COMMANDS
+git push --force origin ISSUE_NUMBER-FEATURE_BRANCH
+git pull --rebase origin ISSUE_NUMBER-FEATURE_BRANCH
 ```
 5. Run `pre-commit run -a` to tidy up code and documentation.
 6. If you are developing in your local host, please check that your code is properly tested with `pytest`.
