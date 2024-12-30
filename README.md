@@ -17,6 +17,20 @@ _‘What I cannot create. I do not understand.’ ~ Richard Feynman (1918 – 19
 1.  :wrench: [Tutorials](tutorials)
 2. :school_satchel: [References](references)
 
+## :nut_and_bolt: Installation
+
+### Dev installation
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh # install uv
+uv venv --python 3.12 # Create a virtual environment at .venv.
+source .venv/bin/activate #To activate the virtual environment
+uv pip install -e ".[test,learning]" # Install the package in editable mode
+uv pip list --verbose #check versions
+pre-commit run -a #pre-commit hooks
+```
+See further details [here](docs/dependencies).
+
+
 ## Clone repository
 The github repository link is 
 https://github.com/mxochicale/intro-to-transformers
@@ -25,7 +39,7 @@ To clone this repo, you might need to generate your SSH keys as suggested [here]
 You can then clone the repository by typing (or copying) the following line in a terminal at your selected path in your machine:
 ```
 cd && mkdir -p repositories/mxochicale && cd repositories/mxochicale
-git clone git@github.com:mxochicale/transformers-tutorials.git
+git clone git@github.com:mxochicale/intro2transformers.git
 ```
 
 ## Issues 
