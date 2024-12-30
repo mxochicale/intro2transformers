@@ -67,6 +67,7 @@ git rebase main
 # git rebase --continue
 git push --force origin ISSUE_NUMBER_FEATURE_BRANCH
 ## JUST MERGE changes from main
+git fetch
 git merge main
 git push origin ISSUE_NUMBER_FEATURE_BRANCH
 ## OTHER COMMANDS
